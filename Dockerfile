@@ -4,7 +4,7 @@ MAINTAINER zhouzihao@baffedu.com
 RUN set x=1 && \
     apk update && \
     apk add git && \
-    apk rsync &&\
+    apk add rsync &&\
     apk add --no-cache openssh &&\
     rm -rf /tmp/* /var/cache/apk/*
 
