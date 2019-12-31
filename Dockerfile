@@ -9,6 +9,7 @@ RUN set x=1 && \
     rm -rf /tmp/* /var/cache/apk/*
 
 RUN npm i @angular/cli -g
+RUN npm install --global gulp-cli
 
 WORKDIR /var/www/script/
 
