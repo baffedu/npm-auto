@@ -10,4 +10,5 @@ RUN set x=1 && \
 
 RUN npm i @angular/cli -g
 
+WORKDIR /var/www/script/
 
